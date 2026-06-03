@@ -4,16 +4,10 @@ import random
 import time
 from datetime import datetime
 
-# ============================================================
-# CONFIGURATION
-# ============================================================
 WINDOWS_IP = "localhost"
 INFLUX_PORT = 8086
 DATABASE = "guardian"
 
-# ============================================================
-# CONNECT TO INFLUXDB
-# ============================================================
 print("=" * 55)
 print("  GUARDIAN — Test Data Generator")
 print("=" * 55)
@@ -165,7 +159,6 @@ write_alert(
     src_ip      = "192.168.1.99"
 )
 
-# Inject false process data — all explicitly float
 write_process_data(
     temperature  = float(999.9),
     pressure     = float(999.9),
@@ -189,9 +182,6 @@ write_alert(
     src_ip      = "192.168.1.99"
 )
 
-# ============================================================
-# SUMMARY
-# ============================================================
 print("\n" + "=" * 55)
 print("  GUARDIAN Test Data Generation Complete!")
 print("=" * 55)
@@ -200,12 +190,12 @@ print("  → Measurement: alerts")
 print("  → Measurement: modbus_traffic")
 print("  → Measurement: process_data")
 print("\n  Scenarios simulated:")
-print("  ✅ Scenario 1 — Normal operations baseline")
-print("  ✅ Scenario 2 — Unauthorized write attack")
-print("  ✅ Scenario 3 — Excessive polling / recon")
-print("  ✅ Scenario 4 — Rogue device detection")
-print("  ✅ Scenario 5 — Out-of-range value injection")
-print("  ✅ Scenario 6 — Replay attack")
+print("   Scenario 1 — Normal operations baseline")
+print("   Scenario 2 — Unauthorized write attack")
+print("   Scenario 3 — Excessive polling / recon")
+print("   Scenario 4 — Rogue device detection")
+print("   Scenario 5 — Out-of-range value injection")
+print("   Scenario 6 — Replay attack")
 print("\n  Open Grafana → http://localhost:3000")
 print("  Check GUARDIAN dashboard for live data!")
 print("=" * 55)
