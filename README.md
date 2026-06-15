@@ -1,11 +1,11 @@
-# 🛡️ GUARDIAN — OT Threat Detection Platform
+#  GUARDIAN — OT Threat Detection Platform
 
 > Real-time ICS/OT network security monitoring platform
 > Detects cyberattacks on industrial control systems
 
 ![Dashboard](docs/GUARDIAN_Grafana_Screenshot-2026-06-15.png)
 
-## 🎯 What is GUARDIAN?
+##  What is GUARDIAN?
 
 GUARDIAN is a real-time threat detection platform
 for OT/ICS networks. It passively monitors Modbus TCP
@@ -19,20 +19,20 @@ daily PDF security reports.
 
 ---
 
-## ⚡ Key Features
+##  Key Features
 
 | Feature | Description |
 |---------|-------------|
-| 🔍 Passive Traffic Capture | Monitors Modbus TCP without disrupting operations |
-| 🚨 5 Detection Rules | Unauthorized write, rogue device, replay, polling, value injection |
-| 🏭 Asset Impact Analyzer | Maps attacks to physical OT assets with consequence analysis |
-| 📊 Live Grafana Dashboard | 8-panel dashboard with real-time alerts |
-| 📄 Auto PDF Report | Daily security report auto-generated |
-| 🔴 MITRE ATT&CK Mapping | All attacks mapped to ICS framework |
+|  Passive Traffic Capture | Monitors Modbus TCP without disrupting operations |
+|  5 Detection Rules | Unauthorized write, rogue device, replay, polling, value injection |
+|  Asset Impact Analyzer | Maps attacks to physical OT assets with consequence analysis |
+|  Live Grafana Dashboard | 8-panel dashboard with real-time alerts |
+|  Auto PDF Report | Daily security report auto-generated |
+|  MITRE ATT&CK Mapping | All attacks mapped to ICS framework |
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 Simulated OT Network
@@ -52,7 +52,7 @@ guardian_report_generator.py → Daily PDF report
 
 ---
 
-## 🔴 Attack Scenarios
+##  Attack Scenarios
 
 | Attack | Severity | MITRE TTP | Physical Impact |
 |--------|----------|-----------|-----------------|
@@ -64,7 +64,7 @@ guardian_report_generator.py → Daily PDF report
 
 ---
 
-## 🏭 OT Asset Impact Analyzer
+##  OT Asset Impact Analyzer
 
 Maps every attack to physical consequences:
 
@@ -80,21 +80,21 @@ Recovery: Days/Weeks — full audit required
 
 ---
 
-## 📊 Grafana Dashboard
+##  Grafana Dashboard
 
 8 live panels:
-- 🚨 Live Alert Feed
-- 📡 Modbus Traffic Volume
-- ⚠️ Alerts by Severity (CRITICAL: 81, HIGH: 15)
-- 🎯 Top Attacking IPs
+-  Live Alert Feed
+-  Modbus Traffic Volume
+-  Alerts by Severity (CRITICAL: 81, HIGH: 15)
+-  Top Attacking IPs
 - 🔍 Rules Triggered
-- ⚠️ Asset Risk Scores (0-100)
-- 🏭 Asset Impact Analysis
-- 🔴 Safety Risk Distribution
+-  Asset Risk Scores (0-100)
+-  Asset Impact Analysis
+-  Safety Risk Distribution
 
 ---
 
-## 📄 Auto PDF Report (7 Pages)
+##  Auto PDF Report (7 Pages)
 
 - Cover page
 - Executive Summary
@@ -106,7 +106,7 @@ Recovery: Days/Weeks — full audit required
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ```
 Python 3     pymodbus, asyncua, scapy, influxdb, reportlab
@@ -120,7 +120,7 @@ Windows      OT infrastructure simulation
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 GUARDIAN/
@@ -143,7 +143,7 @@ GUARDIAN/
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 ```
@@ -186,12 +186,12 @@ Sample Report: [GUARDIAN_Security_Report.pdf](docs/GUARDIAN_Report_2026-06-15.pd
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **Shiv/0ff-t43-gri6** — B.Tech Cybersecurity Portfolio Project
 
 ---
 
-## 📜 License
+##  License
 
 MIT License — free to use, modify, and distribute
