@@ -180,7 +180,7 @@ Dashboard Screenshot:
 
 ![GUARDIAN Dashboard](docs/GUARDIAN_Grafana_Screenshot-2026-06-15.png)
 
-Sample Report: [GUARDIAN_Security_Report.pdf](docs/GUARDIAN_Report_2026-06-15.pdf)
+Sample Report: [GUARDIAN_Security_Report.pdf](docs/GUARDIAN_Report_2026-06-10.pdf)
 
 ---
 
