@@ -1,0 +1,21 @@
+{
+  "name": "guardian-ot-threat-detection",
+  "version": "1.0.0",
+  "description": "GUARDIAN OT Threat Detection Platform — OPC-UA Simulation Server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "node-opcua": "^2.100.0"
+  },
+  "keywords": [
+    "ot-security",
+    "ics-security",
+    "opcua",
+    "modbus",
+    "scada"
+  ],
+  "author": "0ff-t43-gri6",
+  "license": "MIT"
+}
