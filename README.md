@@ -126,6 +126,7 @@ Windows      OT infrastructure simulation
 GUARDIAN/
 ├── server.js                         OPC-UA simulation
 ├── requirements.txt                  Python dependencies
+├── package.json
 ├── Windows Files/
 │   ├── test_data.py                  Test data generator
 │   ├── guardian_asset_pusher.py      Asset data pipeline
