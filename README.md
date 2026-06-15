@@ -3,7 +3,7 @@
 > Real-time ICS/OT network security monitoring platform
 > Detects cyberattacks on industrial control systems
 
-![Dashboard](docs/guardian_dashboard.png)
+![Dashboard](docs/GUARDIAN_Grafana_Screenshot-2026-06-15.png)
 
 ## 🎯 What is GUARDIAN?
 
