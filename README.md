@@ -87,7 +87,7 @@ Recovery: Days/Weeks — full audit required
 -  Modbus Traffic Volume
 -  Alerts by Severity (CRITICAL: 81, HIGH: 15)
 -  Top Attacking IPs
-- 🔍 Rules Triggered
+-  Rules Triggered
 -  Asset Risk Scores (0-100)
 -  Asset Impact Analysis
 -  Safety Risk Distribution
